@@ -1,8 +1,10 @@
 import { useState } from "react";
+interface Props {
+  items: string[];
+  heading: string;
+}
 
-function ListGroup() {
-  const items = ["New York", "San Francisco", "Tokyo"];
-
+function ListGroup({ items, heading }: Props) {
   //hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
