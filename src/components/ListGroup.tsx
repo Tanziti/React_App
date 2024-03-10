@@ -10,7 +10,7 @@ function ListGroup({ items, heading }: Props) {
 
   return (
     <>
-      <h1>List</h1>
+      <h1>{heading}</h1>
       {items.length === 0 && <p>No Item Found</p>}
       <ul className={"list-group"}>
         {items.map((item, index) => (
