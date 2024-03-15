@@ -1,11 +1,11 @@
-import React from "react";
-
-export const Button = () => {
+const Button = () => {
   return (
     <div>
       <button type="button" className="btn btn-primary">
-        Primary
+        Button
       </button>
     </div>
   );
 };
+
+export default Button;
